@@ -67,6 +67,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                 if placemark.country != nil{
                     address += placemark.country! + "\n"
                 }
+                
                 self.addressLabel.text = address
                 }
             }
